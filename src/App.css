@@ -17,8 +17,21 @@
     padding: 0;
     display: flex;
     color: black;
+    align-items: baseline;
   }
   
   .navbar li {
     margin-right: 20px; /* Add margin between list items */
+    text-decoration: none;
+  }
+
+  .navbar a{
+    margin-right: 20px; /* Add margin between list items */
+    text-decoration: none;
+  }
+
+  .active{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
   }

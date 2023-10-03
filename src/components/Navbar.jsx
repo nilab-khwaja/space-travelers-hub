@@ -11,13 +11,13 @@ function Navbar() {
       <nav>
         <ul>
           <li>
-            <NavLink to="/">Rockets</NavLink>
+            <NavLink to="/" exact activeClassName="active">Rockets</NavLink>
           </li>
           <li>
-            <NavLink to="/missions">Missions</NavLink>
+            <NavLink to="/missions" activeClassName="active">Missions</NavLink>
           </li>
           <li>
-            <NavLink to="/profile">Profile</NavLink>
+            <NavLink to="/profile" activeClassName="active">Profile</NavLink>
           </li>
         </ul>
       </nav>
