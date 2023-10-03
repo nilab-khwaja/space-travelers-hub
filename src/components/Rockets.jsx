@@ -36,7 +36,7 @@ const Rockets = () => {
           <li key={rocket.id}>
             <h3>{rocket.rocket_name}</h3>
             <p>Type: {rocket.rocket_type}</p>
-            <p>{rocket.description}</p>
+            <p>{rocket.reserved && <span className='badge'>Reserved</span>}{rocket.description}</p>
             <img src={rocket.flickr_images[0]} alt={rocket.name} width={100} height={100} />
             <button onClick={() => handleToggleReservation(rocket.id, rocket.reserved)}>
               {rocket.reserved ? 'Cancel Reservation' : 'Reserve Rocket'}
