@@ -1,12 +1,16 @@
 .navbar {
     background-color: lightgray; /* Background color for the navbar */
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     padding: 10px 20px; /* Add padding for better spacing */
     color: black;
   }
-  
+.logo{
+    display: flex;
+    gap:4px;
+    align-content: baseline;
+}
   .navbar ul {
     list-style-type: none; /* Remove bullet points from the list */
     margin: 0;
@@ -17,16 +21,4 @@
   
   .navbar li {
     margin-right: 20px; /* Add margin between list items */
-  }
-  
-  .navbar a {
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s; /* Add a smooth color transition on hover */
-    font-size: 20px;
-  }
-  
-  .navbar a:hover {
-    color: #f60; /* Change color on hover */
-    text-decoration: underline;
   }
