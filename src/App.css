@@ -20,9 +20,10 @@
     align-items: baseline;
   }
   
-  .navbar li {
+   li {
     margin-right: 20px; /* Add margin between list items */
     text-decoration: none;
+    list-style-type: none;
   }
 
   .navbar a{
