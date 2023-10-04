@@ -1,42 +1,38 @@
 .navbar {
-    background-color: lightgray; /* Background color for the navbar */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px; /* Add padding for better spacing */
-    color: black;
-  }
-.logo{
-    display: flex;
-    gap:4px;
-    align-content: baseline;
+  border-bottom: 2px gray solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Add padding for better spacing */
+  color: black;
 }
-  .navbar ul {
-    list-style-type: none; /* Remove bullet points from the list */
-    margin: 0;
-    padding: 0;
-    display: flex;
-    color: black;
-    align-items: baseline;
-  }
-  
-   li {
-    margin-right: 20px; /* Add margin between list items */
-    text-decoration: none;
-    list-style-type: none;
-  }
 
-  .navbar a{
-    margin-right: 20px; /* Add margin between list items */
-    text-decoration: none;
-  }
+.logo {
+  display: flex;
+  gap: 4px;
+  align-content: baseline;
+}
 
-  .active{
-    color: black;
-    font-size: 1.5rem;
-    font-weight: 700;
-  }
+.navbar ul {
+  list-style-type: none; /* Remove bullet points from the list */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  color: black;
+  align-items: baseline;
+}
 
-  .badge{
-    background-color: lightgreen;
-  }
+li {
+  margin-right: 20px; /* Add margin between list items */
+  list-style-type: none;
+}
+
+.navbar a {
+  margin-right: 20px; /* Add margin between list items */
+  text-decoration: none;
+}
+
+.active {
+  font-size: larger;
+  font-weight: bolder;
+}
