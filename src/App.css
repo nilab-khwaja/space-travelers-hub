@@ -35,4 +35,6 @@ li {
 .active {
   font-size: larger;
   font-weight: bolder;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
 }
