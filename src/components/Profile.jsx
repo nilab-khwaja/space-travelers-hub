@@ -4,7 +4,7 @@ import '../Styles/Profile.css';
 
 const Profile = () => {
   const reservedRockets = useSelector((state) => {
-    state.rockets.rockets.filter((rocket) => rocket.reserved);
+    return state.rockets.rockets.filter((rocket) => rocket.reserved);
   });
 
   return (
