@@ -1,0 +1,23 @@
+.profile {
+  padding: 20px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  border-collapse: collapse;
+}
+
+.list li {
+  border: 1px solid #ccc;
+  width: 40%;
+  padding: 10px;
+}
+
+.list li h3 {
+  margin: 0;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
