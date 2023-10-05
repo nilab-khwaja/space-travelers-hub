@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { getMissionsData } from '../redux/Missions/missionsSlice';
 import Mission from './Mission';
-import '../Styles/Missions.css'
+import '../Styles/Missions.css';
 
 const Missions = () => {
   const { isLoading, error, missions } = useSelector((state) => state.missions);

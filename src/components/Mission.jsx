@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
-import { joinMission,cancelMission } from '../redux/Missions/missionsSlice';
+import { joinMission, cancelMission } from '../redux/Missions/missionsSlice';
 
 const Mission = ({
   mission_id, mission_name, description, mission_join,
