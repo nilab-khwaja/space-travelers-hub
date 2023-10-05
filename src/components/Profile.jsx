@@ -3,9 +3,9 @@ import { useSelector } from 'react-redux';
 import '../Styles/Profile.css';
 
 const Profile = () => {
-  const reservedRockets = useSelector(
-    (state) => state.rockets.rockets.filter((rocket) => rocket.reserved),
-  );
+  const reservedRockets = useSelector((state) => {
+    return state.rockets.rockets.filter((rocket) => rocket.reserved);
+  });
 
   return (
     <div className="profile">
