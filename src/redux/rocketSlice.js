@@ -9,7 +9,6 @@ const initialState = {
 
 export const fetchRockets = createAsyncThunk('rocket/fetchRockets', async () => {
   const response = await axios.get('https://api.spacexdata.com/v3/rockets');
-  console.log(response);
   return response.data.map((rocket) => ({
     id: rocket.id,
     rocket_name: rocket.rocket_name,
@@ -56,5 +55,6 @@ const rocketReduser = createSlice({
       });
   },
 });
+
 export const { reserveRocket, cancelReservation } = rocketReduser.actions;
 export default rocketReduser.reducer;
