@@ -7,7 +7,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Bookstore](#-space_travler_hub)
+- [📖 Space-Travlers-Hub](#-space_travler_hub)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -63,7 +63,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/DilsherB/Space-Travelers-Hub.git
+  git clone https://github.com/nilab-khwaja/space-travelers-hub.git
   npm install
 ```
 
