@@ -5,9 +5,8 @@ import { cancelReservation, fetchRockets, reserveRocket } from '../redux/rocketS
 
 const Rockets = () => {
   const dispatch = useDispatch();
-  const rockets = useSelector((state) => state.rockets.rockets);
-  const status = useSelector((state) => state.rockets.status);
-  const error = useSelector((state) => state.rockets.error);
+
+  const { rockets, status, error } = useSelector((state) => state.rockets);
 
   useEffect(() => {
     dispatch(fetchRockets());
